@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+    phprakendus:
+        image: ex2_phprakendus:latest
+        ports:
+            - "8083:80"
+        volumes:
+            - ./src:/var/www/html
